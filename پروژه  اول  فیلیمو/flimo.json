@@ -1,0 +1,454 @@
+
+
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.118.json",
+  "name": "Amirali Executive Pro",
+  "dataColors": [
+    "#F5B83F",
+    "#4CC9F0",
+    "#F72585",
+    "#06D6A0",
+    "#7209B7",
+    "#FF7F51",
+    "#4361EE",
+    "#E63946",
+    "#2EC4B6",
+    "#FFD60A",
+    "#C77DFF"
+  ],
+  "background": "#0B192C",
+  "foreground": "#FFFFFF",
+  "tableAccent": "#F5B83F",
+  "visualStyles": {
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "transparency": 0
+          }
+        ],
+        "outspace": [
+          {
+            "color": {
+              "solid": {
+                "color": "#050D18"
+              }
+            }
+          }
+        ],
+        "outspacePane": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#0F1C2E"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontFamily": "IRANSansX"
+          }
+        ],
+        "filterCard": [
+          {
+            "backgroundColor": {
+              "solid": {
+                "color": "#152438"
+              }
+            },
+            "foregroundColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "transparency": 0,
+            "fontFamily": "IRANSansX",
+            "border": true,
+            "borderColor": {
+              "solid": {
+                "color": "#1A2A40"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontColor": {
+              "solid": {
+                "color": "#F5B83F"
+              }
+            },
+            "alignment": "right",
+            "fontSize": 14,
+            "fontFamily": "IRANSansX DemiBold",
+            "bold": true
+          }
+        ],
+        "subTitle": [
+          {
+            "fontColor": {
+              "solid": {
+                "color": "#BBBBBB"
+              }
+            },
+            "alignment": "right",
+            "fontSize": 11,
+            "fontFamily": "IRANSansX"
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "transparency": 25
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#1A2A40"
+              }
+            },
+            "radius": 10
+          }
+        ],
+        "dropShadow": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": "#000000"
+              }
+            },
+            "position": "Outer",
+            "preset": "BottomRight",
+            "transparency": 60,
+            "shadowBlur": 8
+          }
+        ],
+        "visualTooltip": [
+          {
+            "titleFontColor": {
+              "solid": {
+                "color": "#F5B83F"
+              }
+            },
+            "valueFontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "fontFamily": "IRANSansX"
+          }
+        ],
+        "categoryAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#D3D3D3"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "IRANSansX"
+          }
+        ],
+        "valueAxis": [
+          {
+            "labelColor": {
+              "solid": {
+                "color": "#D3D3D3"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "IRANSansX"
+          }
+        ],
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontSize": 10,
+            "fontFamily": "IRANSansX"
+          }
+        ],
+        "legend": [
+          {
+            "show": true,
+            "position": "TopCenter",
+            "labelColor": {
+              "solid": {
+                "color": "#E0E0E0"
+              }
+            },
+            "fontSize": 11,
+            "fontFamily": "IRANSansX"
+          }
+        ]
+      }
+    },
+    "lineChart": {
+      "*": {
+        "lineStyles": [
+          {
+            "showMarker": true,
+            "markerSize": 7,
+            "markerShape": "circle"
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "grid": [
+          {
+            "imageHeight": 125,
+            "rowPadding": 6
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "IRANSansX DemiBold",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#F5B83F"
+              }
+            },
+            "alignment": "Center",
+            "bold": true
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "IRANSansX",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#F5F5F5"
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": "#0F1C2E"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#152438"
+              }
+            }
+          }
+        ],
+        "total": [
+          {
+            "fontFamily": "IRANSansX DemiBold",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#F5B83F"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "bold": true
+          }
+        ]
+      }
+    },
+    "pivotTable": {
+      "*": {
+        "grid": [
+          {
+            "imageHeight": 125,
+            "rowPadding": 6
+          }
+        ],
+        "rowHeaders": [
+          {
+            "fontFamily": "IRANSansX",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "alignment": "Left",
+            "bold": true
+          }
+        ],
+        "columnHeaders": [
+          {
+            "fontFamily": "IRANSansX DemiBold",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#F5B83F"
+              }
+            },
+            "alignment": "Center",
+            "bold": true
+          }
+        ],
+        "values": [
+          {
+            "fontFamily": "IRANSansX",
+            "fontSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#F5F5F5"
+              }
+            },
+            "backColorPrimary": {
+              "solid": {
+                "color": "#0F1C2E"
+              }
+            },
+            "backColorSecondary": {
+              "solid": {
+                "color": "#152438"
+              }
+            },
+            "bandedRowHeaders": true
+          }
+        ],
+        "total": [
+          {
+            "fontFamily": "IRANSansX DemiBold",
+            "fontSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#F5B83F"
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "bold": true
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#F5B83F"
+              }
+            },
+            "fontSize": 28,
+            "fontFamily": "IRANSansX DemiBold",
+            "bold": true
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#BBBBBB"
+              }
+            },
+            "fontSize": 13,
+            "fontFamily": "IRANSansX"
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "header": [
+          {
+            "fontFamily": "IRANSansX DemiBold",
+            "textSize": 12,
+            "fontColor": {
+              "solid": {
+                "color": "#F5B83F"
+              }
+            }
+          }
+        ],
+        "items": [
+          {
+            "fontFamily": "IRANSansX",
+            "textSize": 11,
+            "fontColor": {
+              "solid": {
+                "color": "#0B192C"
+              }
+            },
+            "background": {
+              "solid": {
+                "color": "#F5F5F5"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "label": {
+      "fontFace": "IRANSansX",
+      "color": "#E0E0E0"
+    },
+    "callout": {
+      "fontFace": "IRANSansX DemiBold",
+      "color": "#F5B83F"
+    },
+    "title": {
+      "fontFace": "IRANSansX DemiBold",
+      "color": "#F5B83F"
+    },
+    "header": {
+      "fontFace": "IRANSansX",
+      "color": "#F5F5F5"
+    }
+  }
+}
